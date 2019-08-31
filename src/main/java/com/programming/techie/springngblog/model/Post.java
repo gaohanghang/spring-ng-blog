@@ -1,5 +1,7 @@
 package com.programming.techie.springngblog.model;
 
+import io.swagger.annotations.ApiModel;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;

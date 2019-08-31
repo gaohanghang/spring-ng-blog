@@ -1,9 +1,17 @@
 package com.programming.techie.springngblog.dto;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel(value = "com.programming.techie.springngblog.dto.PostDto", description = "博客参数")
 public class PostDto {
+    @ApiModelProperty(value = "ID")
     private Long id;
+    @ApiModelProperty(value = "内容")
     private String content;
+    @ApiModelProperty(value = "标题")
     private String title;
+    @ApiModelProperty(value = "用户名")
     private String username;
 
     public Long getId() {

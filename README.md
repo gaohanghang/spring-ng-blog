@@ -8,4 +8,18 @@
 
 ## 运行效果
 
+**前端效果**
+
 ![](https://raw.githubusercontent.com/gaohanghang/images/master/img20190831185759.png)
+
+**接口文档**
+
+![](https://raw.githubusercontent.com/gaohanghang/images/master/img20190831195758.png)
+
+## 快速启动
+
+1. mysql创建 `ngspringblog` 数据库
+
+2. 启动项目
+
+3. 打开 swagger 接口文档，http://localhost:8080/swagger-ui.html

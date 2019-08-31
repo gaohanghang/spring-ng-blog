@@ -1,5 +1,8 @@
 package com.programming.techie.springngblog.dto;
 
+import io.swagger.annotations.ApiModel;
+
+@ApiModel(value = "com.programming.techie.springngblog.dto.RegisterRequest", description = "注册参数")
 public class RegisterRequest {
     private String username;
     private String email;
